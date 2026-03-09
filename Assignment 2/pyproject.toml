@@ -1,0 +1,5 @@
+[tool.ruff]
+line-length = 80  # Set the maximum line length
+select = ["E", "F", "W", "C90"]  # Enable common linting rules
+extend-select = ["W291"]  # Enable rule for trailing whitespace
+fixable = ["E", "F", "W", "C90", "W291"]  # Specify rules Ruff can fix

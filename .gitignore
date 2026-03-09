@@ -1,0 +1,13 @@
+# Ignore all Jupyter notebooks
+*.ipynb
+
+# Ignore all data files (common types)
+*.txt
+*.csv
+*.tsv
+*.h5
+*.keras
+*.pt
+
+# Ignore data/ directory and its contents
+data/
